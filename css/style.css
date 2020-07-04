@@ -108,6 +108,31 @@ nav.navbar .toggle-icon.collapsed::after {
 .auth img {
     width: 36px;
 }
+.nav-item{
+    position: relative;
+}
+
+.new {
+    position: absolute;
+    top: -15px;
+    /* justify-content: center; */
+    left: 50%;
+    margin-left: -34px;
+    /* transform: translateX(-81%);
+    right: 0; */
+    background-color: #FF007F;
+    border-radius: 24px;
+    padding: 4px 14px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px
+}
+
+/* .nav-top .new{
+    width: 68px;
+    height: 26px;
+} */
 
 .nav-top .navbar-item {
     padding: 20px 0;
